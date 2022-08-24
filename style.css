@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav li {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.profilecontainer {
+    display: flex;
+    width: 80%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.leftside {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+img {
+    border-radius: 50%;
+    margin: 30px;
+}
+
+h3{
+    font-weight: normal;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 85px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+
+.button1 {
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.button1:hover{
+    -webkit-box-shadow:0px 0px 10px 2px blue;
+    -moz-box-shadow: 0px 0px 10px 2px blue;
+    box-shadow: 0px 0px 10px 2px blue;
+}
+
+.button2 {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin-left: 10px;
+}
+
+.button2:hover {
+    -webkit-box-shadow:0px 0px 10px 2px black;
+    -moz-box-shadow: 0px 0px 10px 2px black;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+.rightside {
+    margin: 40px;
+    padding-left: 20px;
+    border-left: 1px solid rgba(183, 183, 183, 0.588);
+}
+
+.details {
+    margin: 40px 15px;
+}
+
+.unbold {
+    font-weight: normal;
+}
+
+form {
+    width: 80%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input{
+    width: 99.7%;
+    height: 30px;
+}
+
+input[type=submit] {
+    text-transform: uppercase;
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    -webkit-box-shadow:0px 0px 10px 2px green;
+    -moz-box-shadow: 0px 0px 10px 2px green;
+    box-shadow: 0px 0px 10px 2px green;
+}
